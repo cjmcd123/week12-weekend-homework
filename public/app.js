@@ -29,7 +29,8 @@ const requestComplete = function (response) {
     let pubDiv = document.createElement("div");
     pubDiv.setAttribute("id", "pub-text");
     let title = document.createElement("h1");
-    title.innerText = "Question " + (i+=1) + ":";
+    let count = i;
+    title.innerText = "Question " + (count+=1) + ":";
     pubDiv.appendChild(title);
     let pquestion = document.createElement("h5");
     let decodequestion = decodeURI(jsonqa[i].question);
