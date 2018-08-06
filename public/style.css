@@ -1,0 +1,133 @@
+body{
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/91Jgk8OaPEL._SL1500_.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+
+main{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #DCDCDC;
+  font-family: Courier;
+  font-size: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin: 15px;
+}
+
+label{
+  display: inline;
+}
+
+input{
+  margin: 10px;
+}
+
+ul{
+  padding: 10px;
+}
+
+th{
+  padding: 5px;
+}
+
+li{
+  list-style-type: none;
+}
+
+select{
+  padding: 10px;
+  border-radius: 5px;
+  width: 90%;
+  font-size: 22px;
+  margin: 5px;
+}
+
+button {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 160px;
+  cursor: pointer;
+  padding: 9px 30px;
+  overflow: hidden;
+  border: 1px solid;
+  font: normal 19px/1 "Acme", Helvetica, sans-serif;
+  color: rgba(0,0,0,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #ffffff;
+  -webkit-box-shadow: 3px 3px 0 0 rgba(0,0,0,0.8) ;
+  box-shadow: 3px 3px 0 0 rgba(0,0,0,0.8) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+  margin: 40px;
+}
+
+button:active {
+  position: relative;
+  margin: 40px;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.8) ;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.8) ;
+}
+
+img.logo{
+
+  padding: 25px;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+  justify-content: center;
+}
+
+#choice{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  align-items: center;
+  margin: 40px;
+  padding: 40px;
+}
+
+#selects{
+  margin: 30px;
+}
+
+#knowledge-test{
+  margin: 30px;
+  padding-bottom: 10px;
+}
+
+#pub-quiz{
+  margin: 30px;
+  padding-bottom: 10px;
+}
+
+#qna{
+  border-bottom: solid;
+  padding: 10px;
+}
+
+#answers-div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  align-items: space-around;
+}
+
+#text{
+  margin: 10px;
+}
+
+.answer_div{
+  white-space: nowrap;
+  margin: 15px;
+  padding: 10px;
+}
